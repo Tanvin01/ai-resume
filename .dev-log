@@ -3,3 +3,4 @@
 [2025-12-08T18:55:00] chore: add ESLint and Prettier configuration
 [2025-12-15T09:07:00] perf: lazy load components for better FCP
 [2026-01-04T09:48:00] feat: add responsive mobile navigation
+[2026-01-04T11:24:00] fix: resolve hydration mismatch in SSR components
