@@ -40,3 +40,4 @@
 [2026-06-09T13:00:00] feat: add real-time ATS score updates on every edit
 
 [2026-01-08T09:30:00] feat: scaffold Next.js project with Supabase auth
+[2026-01-13T14:00:00] feat: integrate OpenAI GPT-4o for bullet point rewriting
