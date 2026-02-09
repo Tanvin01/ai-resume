@@ -42,3 +42,4 @@
 [2026-01-08T09:30:00] feat: scaffold Next.js project with Supabase auth
 [2026-01-13T14:00:00] feat: integrate OpenAI GPT-4o for bullet point rewriting
 [2026-02-05T11:00:00] feat: implement streaming SSE response for AI generation
+[2026-02-09T15:30:00] feat: add server-side PDF export with Puppeteer
