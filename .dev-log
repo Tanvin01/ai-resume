@@ -47,3 +47,4 @@
 [2026-03-05T11:00:00] feat: build resume editor with TipTap rich text editing
 [2026-03-10T15:00:00] feat: add 8 resume templates with real-time preview
 [2026-04-03T09:30:00] feat: add cover letter generator with job description context
+[2026-04-08T15:00:00] feat: implement version history for multiple resume drafts
