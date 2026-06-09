@@ -52,3 +52,4 @@
 [2026-05-05T10:00:00] feat: add LinkedIn profile import via URL scraping
 [2026-05-10T13:30:00] feat: implement drag-and-drop section reordering with dnd-kit
 [2026-06-04T10:00:00] feat: add grammar and clarity suggestions via GPT-4o
+[2026-06-09T13:00:00] feat: add real-time ATS score updates on every edit
