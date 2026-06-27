@@ -1,0 +1,31 @@
+﻿generator client { provider = "prisma-client-js" }
+datasource db { provider = "postgresql"; url = env("DATABASE_URL") }
+model User {
+  id String @id @default(cuid())
+  email String @unique
+  name String?
+  image String?
+  resumes Resume[]
+  createdAt DateTime @default(now())
+}
+model Resume {
+  id String @id @default(cuid())
+  title String
+  data Json @default("{}")
+  userId String
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  shareToken String? @unique
+  sharePassword String?
+  versions ResumeVersion[]
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  @@index([userId])
+}
+model ResumeVersion {
+  id String @id @default(cuid())
+  resumeId String
+  resume Resume @relation(fields: [resumeId], references: [id], onDelete: Cascade)
+  snapshot Json
+  label String?
+  createdAt DateTime @default(now())
+}
